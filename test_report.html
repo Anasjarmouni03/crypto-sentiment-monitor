@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: #2c3e50;
+            margin: 0;
+            font-size: 28px;
+        }
+        .date-range {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .summary-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .summary-stat {
+            display: inline-block;
+            margin: 0 20px;
+        }
+        .summary-stat h3 {
+            margin: 0;
+            font-size: 32px;
+        }
+        .summary-stat p {
+            margin: 5px 0 0 0;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        .section {
+            margin: 30px 0;
+        }
+        .section h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th {
+            background-color: #34495e;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        .positive { color: #27ae60; font-weight: bold; }
+        .negative { color: #e74c3c; font-weight: bold; }
+        .neutral { color: #95a5a6; font-weight: bold; }
+        .insight-box {
+            background-color: #e8f5e9;
+            border-left: 4px solid #4CAF50;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        .insight-box h3 {
+            margin-top: 0;
+            color: #2e7d32;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+            color: #7f8c8d;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Crypto Sentiment Report</h1>
+            <p class="date-range">Dec 28, 2025 - Jan 04, 2026</p>
+        </div>
+        
+        <div class="summary-box">
+            <div class="summary-stat">
+                <h3 style="color: #66cc00;">0.15</h3>
+                <p>Overall Sentiment</p>
+                <p>🟢 Positive</p>
+            </div>
+            <div class="summary-stat">
+                <h3>26</h3>
+                <p>Posts Analyzed</p>
+            </div>
+            <div class="summary-stat">
+                <h3 class="positive">12</h3>
+                <p>Positive Posts</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🔥 Top 5 Trending Cryptocurrencies</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Crypto</th>
+                        <th>Mentions</th>
+                        <th>Avg Sentiment</th>
+                        <th>Distribution</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td><strong>BTC</strong></td>
+                        <td>7</td>
+                        <td class="positive">0.31</td>
+                        <td>✅5 | ❌0 | ⚪2</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td><strong>ETH</strong></td>
+                        <td>7</td>
+                        <td class="negative">-0.04</td>
+                        <td>✅1 | ❌2 | ⚪4</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td><strong>SOL</strong></td>
+                        <td>3</td>
+                        <td class="positive">0.42</td>
+                        <td>✅3 | ❌0 | ⚪0</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td><strong>DOGE</strong></td>
+                        <td>2</td>
+                        <td class="positive">0.66</td>
+                        <td>✅2 | ❌0 | ⚪0</td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td><strong>ADA</strong></td>
+                        <td>1</td>
+                        <td class="neutral">0.00</td>
+                        <td>✅0 | ❌0 | ⚪1</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="section">
+            <h2>📱 Sentiment by Source</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Source</th>
+                        <th>Average Sentiment</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><strong>Nitter</strong></td>
+                        <td class="positive">0.23</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Cryptopanic</strong></td>
+                        <td class="positive">0.18</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Coindesk</strong></td>
+                        <td class="negative">-0.09</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="section">
+            <h2>💡 Key Insights</h2>
+
+            <div class="insight-box">
+                <h3>🚀 Biggest Sentiment Winner</h3>
+                <p><strong>DOGE</strong> showed the most positive sentiment with an average of <span class="positive">0.66</span> across 2 mentions.</p>
+            </div>
+
+            <div class="insight-box" style="background-color: #ffebee; border-left-color: #e74c3c;">
+                <h3 style="color: #c62828;">📉 Biggest Sentiment Concern</h3>
+                <p><strong>XRP</strong> showed the most negative sentiment with an average of <span class="negative">-0.51</span> across 1 mentions.</p>
+            </div>
+
+            <div class="insight-box" style="background-color: #e3f2fd; border-left-color: #2196F3;">
+                <h3 style="color: #1565c0;">📊 Sentiment Distribution</h3>
+                <p>During this period: <span class="positive">12 positive</span>, <span class="negative">4 negative</span>, and <span class="neutral">10 neutral</span> posts were analyzed.</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Crypto Sentiment Monitor</strong></p>
+            <p>Automated sentiment analysis powered by VADER NLP</p>
+            <p>Generated on January 04, 2026 at 03:58 PM</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+.DS_Store
+
+data/
+*.db
+
+utils/config.py
+
+.streamlit/
