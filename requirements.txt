@@ -1,6 +1,33 @@
+# ============================================
+# CRYPTO SENTIMENT MONITOR - REQUIREMENTS
+# ============================================
+
+# Web Scraping (Scraper Team)
+beautifulsoup4==4.12.2
+requests==2.31.0
+lxml==4.9.3
+urllib3==2.1.0
+
+# Data Processing
+pandas>=2.2.0
+
+# Sentiment Analysis (Analysis Team)
 vaderSentiment==3.3.2
 textblob==0.17.1
+
+# Visualization & Dashboard (Dashboard Team)
 streamlit==1.29.0
 plotly==5.18.0
+
+# Automation (Automation Team)
 APScheduler==3.10.4
-pandas>=2.2.0
+
+# Standard Library (built-in, no install needed)
+# - sqlite3
+# - smtplib
+# - email
+# - datetime
+# - time
+# - os
+# - sys
+# - random
