@@ -1,0 +1,86 @@
+2026-01-04 19:27:40,193 - __main__ - INFO - ======================================================================
+2026-01-04 19:27:40,201 - __main__ - INFO - ======================================================================
+2026-01-04 19:27:40,208 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-04 19:27:40,212 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-04 19:27:40,216 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-04 19:27:40,223 - apscheduler.scheduler - INFO - Added job "Data Collection (Every 15 minutes)" to job store "default"
+2026-01-04 19:27:40,224 - apscheduler.scheduler - INFO - Added job "Sentiment Analysis (Every 15 minutes)" to job store "default"
+2026-01-04 19:27:40,224 - apscheduler.scheduler - INFO - Added job "Weekly Report (Mondays at 9:00 AM)" to job store "default"
+2026-01-04 19:27:40,225 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-04 19:27:40,233 - __main__ - INFO - ======================================================================
+2026-01-04 19:27:40,237 - __main__ - INFO -   • Sentiment Analysis (Every 15 minutes): 2026-01-04 19:29:00
+2026-01-04 19:27:40,237 - __main__ - INFO -   • Data Collection (Every 15 minutes): 2026-01-04 19:42:40
+2026-01-04 19:27:40,237 - __main__ - INFO -   • Weekly Report (Mondays at 9:00 AM): 2026-01-05 09:00:00
+2026-01-04 19:27:40,242 - __main__ - INFO - ======================================================================
+2026-01-04 19:27:40,245 - __main__ - INFO - ==================================================
+2026-01-04 19:27:40,246 - __main__ - INFO - Starting data collection job...
+2026-01-04 19:27:44,265 - __main__ - INFO - ==================================================
+2026-01-04 19:27:44,265 - __main__ - INFO - Starting sentiment analysis job...
+2026-01-04 19:29:00,014 - apscheduler.executors.default - INFO - Running job "Sentiment Analysis (Every 15 minutes) (trigger: interval[0:15:00], next run at: 2026-01-04 19:29:00 +01)" (scheduled at 2026-01-04 19:29:00+01:00)
+2026-01-04 19:29:00,015 - __main__ - INFO - ==================================================
+2026-01-04 19:29:00,015 - __main__ - INFO - Starting sentiment analysis job...
+2026-01-04 19:29:00,025 - apscheduler.executors.default - INFO - Job "Sentiment Analysis (Every 15 minutes) (trigger: interval[0:15:00], next run at: 2026-01-04 19:44:00 +01)" executed successfully
+2026-01-04 19:29:07,679 - __main__ - INFO - 
+======================================================================
+2026-01-04 19:29:07,685 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2026-01-04 19:29:07,690 - __main__ - INFO - ======================================================================
+2026-01-04 19:32:44,823 - __main__ - INFO - ======================================================================
+2026-01-04 19:32:44,823 - __main__ - INFO - Starting Crypto Sentiment Monitor Scheduler
+2026-01-04 19:32:44,824 - __main__ - INFO - ======================================================================
+2026-01-04 19:32:44,829 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-04 19:32:44,829 - __main__ - INFO - Scheduled: Data Collection - Every 15 minutes
+2026-01-04 19:32:44,829 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-04 19:32:44,830 - __main__ - INFO - Scheduled: Sentiment Analysis - Every 15 minutes
+2026-01-04 19:32:44,831 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-01-04 19:32:44,831 - __main__ - INFO - Scheduled: Weekly Report - Every Monday at 9:00 AM
+2026-01-04 19:32:44,833 - apscheduler.scheduler - INFO - Added job "Data Collection (Every 15 minutes)" to job store "default"
+2026-01-04 19:32:44,833 - apscheduler.scheduler - INFO - Added job "Sentiment Analysis (Every 15 minutes)" to job store "default"
+2026-01-04 19:32:44,834 - apscheduler.scheduler - INFO - Added job "Weekly Report (Mondays at 9:00 AM)" to job store "default"
+2026-01-04 19:32:44,834 - apscheduler.scheduler - INFO - Scheduler started
+2026-01-04 19:32:44,838 - __main__ - INFO - Scheduler started successfully!
+2026-01-04 19:32:44,839 - __main__ - INFO - ======================================================================
+2026-01-04 19:32:44,839 - __main__ - INFO - 
+Next scheduled runs:
+2026-01-04 19:32:44,839 - __main__ - INFO -   • Sentiment Analysis (Every 15 minutes): 2026-01-04 19:34:00
+2026-01-04 19:32:44,840 - __main__ - INFO -   • Data Collection (Every 15 minutes): 2026-01-04 19:47:44
+2026-01-04 19:32:44,840 - __main__ - INFO -   • Weekly Report (Mondays at 9:00 AM): 2026-01-05 09:00:00
+2026-01-04 19:32:44,841 - __main__ - INFO - 
+Press Ctrl+C to stop the scheduler
+
+2026-01-04 19:32:44,841 - __main__ - INFO - ======================================================================
+2026-01-04 19:32:44,841 - __main__ - INFO - 
+Running initial data collection cycle...
+2026-01-04 19:32:44,842 - __main__ - INFO - ==================================================
+2026-01-04 19:32:44,842 - __main__ - INFO - Starting data collection job...
+2026-01-04 19:32:48,984 - __main__ - INFO - Data collection completed. Collected 21 new items.
+2026-01-04 19:32:48,984 - __main__ - INFO - 
+Running initial analysis cycle...
+2026-01-04 19:32:48,984 - __main__ - INFO - ==================================================
+2026-01-04 19:32:48,985 - __main__ - INFO - Starting sentiment analysis job...
+2026-01-04 19:32:49,441 - __main__ - INFO - Sentiment analysis completed. Processed 21 entries.
+2026-01-04 19:34:00,002 - apscheduler.executors.default - INFO - Running job "Sentiment Analysis (Every 15 minutes) (trigger: interval[0:15:00], next run at: 2026-01-04 19:34:00 +01)" (scheduled at 2026-01-04 19:34:00+01:00)
+2026-01-04 19:34:00,003 - __main__ - INFO - ==================================================
+2026-01-04 19:34:00,004 - __main__ - INFO - Starting sentiment analysis job...
+2026-01-04 19:34:00,005 - __main__ - INFO - Sentiment analysis completed. Processed 0 entries.
+2026-01-04 19:34:00,006 - apscheduler.executors.default - INFO - Job "Sentiment Analysis (Every 15 minutes) (trigger: interval[0:15:00], next run at: 2026-01-04 19:49:00 +01)" executed successfully
+2026-01-04 19:47:44,841 - apscheduler.executors.default - INFO - Running job "Data Collection (Every 15 minutes) (trigger: interval[0:15:00], next run at: 2026-01-04 20:02:44 +01)" (scheduled at 2026-01-04 19:47:44.828961+01:00)
+2026-01-04 19:47:44,842 - __main__ - INFO - ==================================================
+2026-01-04 19:47:44,843 - __main__ - INFO - Starting data collection job...
+2026-01-04 19:47:48,999 - __main__ - INFO - Data collection completed. Collected 21 new items.
+2026-01-04 19:47:49,000 - apscheduler.executors.default - INFO - Job "Data Collection (Every 15 minutes) (trigger: interval[0:15:00], next run at: 2026-01-04 20:02:44 +01)" executed successfully
+2026-01-04 19:49:00,001 - apscheduler.executors.default - INFO - Running job "Sentiment Analysis (Every 15 minutes) (trigger: interval[0:15:00], next run at: 2026-01-04 20:04:00 +01)" (scheduled at 2026-01-04 19:49:00+01:00)
+2026-01-04 19:49:00,002 - __main__ - INFO - ==================================================
+2026-01-04 19:49:00,002 - __main__ - INFO - Starting sentiment analysis job...
+2026-01-04 19:49:00,378 - __main__ - INFO - Sentiment analysis completed. Processed 21 entries.
+2026-01-04 19:49:00,378 - apscheduler.executors.default - INFO - Job "Sentiment Analysis (Every 15 minutes) (trigger: interval[0:15:00], next run at: 2026-01-04 20:04:00 +01)" executed successfully
+2026-01-04 20:00:49,479 - __main__ - INFO - Scheduler heartbeat - 2026-01-04 20:00:49
+2026-01-04 20:02:44,830 - apscheduler.executors.default - INFO - Running job "Data Collection (Every 15 minutes) (trigger: interval[0:15:00], next run at: 2026-01-04 20:17:44 +01)" (scheduled at 2026-01-04 20:02:44.828961+01:00)
+2026-01-04 20:02:44,830 - __main__ - INFO - ==================================================
+2026-01-04 20:02:44,831 - __main__ - INFO - Starting data collection job...
+2026-01-04 20:02:49,646 - __main__ - INFO - Data collection completed. Collected 21 new items.
+2026-01-04 20:02:49,646 - apscheduler.executors.default - INFO - Job "Data Collection (Every 15 minutes) (trigger: interval[0:15:00], next run at: 2026-01-04 20:17:44 +01)" executed successfully
+2026-01-04 20:04:00,010 - apscheduler.executors.default - INFO - Running job "Sentiment Analysis (Every 15 minutes) (trigger: interval[0:15:00], next run at: 2026-01-04 20:19:00 +01)" (scheduled at 2026-01-04 20:04:00+01:00)
+2026-01-04 20:04:00,011 - __main__ - INFO - ==================================================
+2026-01-04 20:04:00,011 - __main__ - INFO - Starting sentiment analysis job...
+2026-01-04 20:04:00,388 - __main__ - INFO - Sentiment analysis completed. Processed 21 entries.
+2026-01-04 20:04:00,388 - apscheduler.executors.default - INFO - Job "Sentiment Analysis (Every 15 minutes) (trigger: interval[0:15:00], next run at: 2026-01-04 20:19:00 +01)" executed successfully
