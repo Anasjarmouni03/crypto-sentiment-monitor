@@ -58,6 +58,14 @@ python automation/scheduler.py
 ```
 *This will run in the background, updating the database every 15 minutes.*
 
+### 4. Email Reporting (Optional)
+To manually generate and send a weekly report:
+
+```bash
+python automation/email_reporter.py
+```
+*Follow the on-screen prompts to generate a report and send a test email.*
+
 ---
 
 ## 📂 Project Structure
